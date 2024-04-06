@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from 'react-router-dom';
 import AppLayout from './layout/AppLayout';
 import MainPage from './pages/MainPage/MainPage';
