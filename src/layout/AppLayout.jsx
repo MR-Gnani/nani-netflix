@@ -12,8 +12,7 @@ const AppLayout = () => {
     <div className=''>
       <Navbar expand="lg" className="px-5 bg-black" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand>
-        <a>NETFLIX</a><img src="" width={93} alt=''/>
+        <Navbar.Brand><img src="https://i.namu.wiki/i/r01HTQs-nzOrsPRbJOeGlv9KB_NY-VM1croMvv0GMInJFjiQZNKiK90Ufpz1qY164mNkd_GfnbcHjnGHiqxb3g.svg" width={93} alt=''/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
