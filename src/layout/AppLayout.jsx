@@ -5,14 +5,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Outlet} from 'react-router-dom';
-import logo from '../Logonetflix.png';
 
 const AppLayout = () => {
   return (
     <div className=''>
       <Navbar expand="lg" className="px-5 bg-black" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand><img src="https://i.namu.wiki/i/r01HTQs-nzOrsPRbJOeGlv9KB_NY-VM1croMvv0GMInJFjiQZNKiK90Ufpz1qY164mNkd_GfnbcHjnGHiqxb3g.svg" width={93} alt=''/>
+        <Navbar.Brand><img src="https://i.namu.wiki/i/-I8NUqTE7uADT0au1fxan7mljOIopICG16Ifsjh4zPFW1FGXEilmcwwo-VI8Ho10N7Z7Q5qWmaFmNllOpQqWgg.svg" width={93} alt=''/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
