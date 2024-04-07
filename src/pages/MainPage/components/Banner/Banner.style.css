@@ -1,0 +1,29 @@
+.banner {
+    height: 56vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner:before{
+    content: '';
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    left: 0;
+    height: 56vh;
+    width: 100%;
+}
+
+.bannerSection{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    height: 100%;
+    padding: 15px;
+}
+
+.bannerSection > *{
+    /* 맨위로 올라오게 해서 우선순위 줌 */
+    z-index: 2; 
+}
