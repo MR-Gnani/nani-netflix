@@ -9,7 +9,7 @@ import {Outlet} from 'react-router-dom';
 const AppLayout = () => {
   return (
     <div className=''>
-      <Navbar expand="lg" className="px-5 bg-black" data-bs-theme="dark">
+      <Navbar expand="lg" className="px-5 bg-custom fixed-top" data-bs-theme="dark">
       <Container fluid>
         <Navbar.Brand><img src="https://i.namu.wiki/i/-I8NUqTE7uADT0au1fxan7mljOIopICG16Ifsjh4zPFW1FGXEilmcwwo-VI8Ho10N7Z7Q5qWmaFmNllOpQqWgg.svg" width={93} alt=''/>
         </Navbar.Brand>
@@ -30,10 +30,10 @@ const AppLayout = () => {
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2"
+              className="me-2 bg-transparent"
               aria-label="Search"
             />
-            <Button variant="outline-danger">Search</Button>
+            <Button variant="outline-light">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

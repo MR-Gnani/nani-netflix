@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './components/Banner/Banner';
 import {Container} from 'react-bootstrap';
+import PopularMovieSlides from './components/PopularMovieSlides/PopularMovieSlides';
 
 // 1. banner => popular영화의 첫번째 아이템
 // 2. popular movie
@@ -9,9 +10,10 @@ import {Container} from 'react-bootstrap';
 
 const MainPage = () => {
   return (
-    <div className=''>
+    <div className='mainPage'>
       <Container>
         <Banner/>
+        <PopularMovieSlides/>
       </Container>
     </div>
   )

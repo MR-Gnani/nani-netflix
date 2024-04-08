@@ -1,16 +1,18 @@
 .banner {
-    height: 56vh;
+    height: calc(100vw * 9 / 21); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 60px;
 }
 
 .banner:before{
     content: '';
-    background: linear-gradient(to top, black, transparent);
+    background: linear-gradient(45deg, rgb(8, 5, 41), transparent);
     position: absolute;
     left: 0;
-    height: 56vh;
+    height: calc(100vw * 9 / 21); 
     width: 100%;
 }
 
@@ -27,3 +29,25 @@
     /* 맨위로 올라오게 해서 우선순위 줌 */
     z-index: 2; 
 }
+
+@media only screen and (max-width: 1268px) {
+    .banner {
+        height: calc(100vw / 2.33); /* 모바일에서는 세로 화면 전체를 차지하도록 높이 조정 */
+    }
+  
+    .banner:before {
+        height: calc(100vw / 2.33); /* 모바일에서도 배경 그라데이션의 높이를 세로 화면 전체로 설정 */
+    }
+  
+    .bannerSection {
+      width: 100%; /* 모바일에서는 가로로 전체 폭을 차지하도록 너비 조정 */
+    }
+
+    .bannerSection h1 {
+        font-size: 24px;
+    }
+
+    .bannerSection p {
+        font-size: 13px;
+    }
+  }

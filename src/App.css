@@ -1,4 +1,6 @@
 body{
-    background-color: black !important;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db9ed8c9-b18e-40d7-9b96-eb34d64138e6/dg46j1i-20d38f5b-0679-48b8-aecc-02f68c27610c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiOWVkOGM5LWIxOGUtNDBkNy05Yjk2LWViMzRkNjQxMzhlNlwvZGc0NmoxaS0yMGQzOGY1Yi0wNjc5LTQ4YjgtYWVjYy0wMmY2OGMyNzYxMGMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cqsqczj6WEwX690NKy9hSaVGMiRbpOAZGAgHpvb6UJ0") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
     color:white !important;
   }
