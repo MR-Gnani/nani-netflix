@@ -1,0 +1,11 @@
+.carousel-container{
+    overflow: hidden;
+    height: 370px;
+}
+
+@media only screen and (max-width: 1268px) {
+    .carousel-container{
+        
+        height: 250px;
+    }
+  }
