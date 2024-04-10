@@ -6,6 +6,7 @@ import MainPage from './pages/MainPage/MainPage';
 import MovieDetailPage from './pages/MovieDetail/MovieDetailPage';
 import MoviePage from './pages/Movies/MoviePage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import SelectMovie from './pages/MovieSelectPage/SelectMovie';
 
 // Branch Test 
 // Main 페이지
@@ -15,7 +16,13 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<AppLayout/>}>
-        <Route index element={<MainPage/>}/>
+        {/* 영화 고르기 페이지 */}
+        <Route index element={<SelectMovie/>}/>
+
+        {/* 메인 페이지 */}
+        <Route path='main' element={<MainPage/>}/>
+
+        {/* 영화 상세 페이지 */}
         <Route path='movies'>
           <Route index element={<MoviePage/>}/>
           <Route path=':id' element={<MovieDetailPage/>}/>

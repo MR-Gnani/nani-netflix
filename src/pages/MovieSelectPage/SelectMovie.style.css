@@ -1,0 +1,26 @@
+.selectSection{
+    margin-top: 60px;
+}
+
+.TopSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.buttonSection {
+    display: flex;
+    align-items: center;
+}
+
+.gridMovieList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+@media only screen and (max-width: 1268px) {
+   .gridMovieList{
+    grid-template-columns: repeat(3, 1fr);
+   }
+  }

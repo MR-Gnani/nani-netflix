@@ -1,0 +1,11 @@
+.movie-card{
+    width: 250px;
+    height: 380px;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.selected {
+    border-color: 2px solid white;
+}
