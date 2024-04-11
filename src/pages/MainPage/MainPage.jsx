@@ -13,12 +13,12 @@ import UpComingMovieSlides from './components/Slides/UpComingMovieSlides';
 const MainPage = () => {
   return (
     <div className='mainPage'>
-      <Container>
+      {/* <Container> */}
         <Banner/>
         <UpComingMovieSlides/>
         <TopRatedMovieSlides/>
         <PopularMovieSlides/>
-      </Container>
+      {/* </Container> */}
     </div>
   )
 }

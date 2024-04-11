@@ -1,5 +1,7 @@
 .selectSection{
     margin-top: 60px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .TopSection {
@@ -11,6 +13,7 @@
 .buttonSection {
     display: flex;
     align-items: center;
+    margin-right: 0.5em;
 }
 
 .gridMovieList {
@@ -19,8 +22,20 @@
     gap: 20px;
 }
 
-@media only screen and (max-width: 1268px) {
+@media only screen and (max-width: 768px) {
+    .gridMovieList{
+     grid-template-columns: repeat(2, 1fr);
+    }
+   }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
    .gridMovieList{
     grid-template-columns: repeat(3, 1fr);
    }
+  }
+
+  @media only screen and (max-width: 1268px) and (min-width: 1024px) {
+    .gridMovieList{
+     grid-template-columns: repeat(4, 1fr);
+    }
   }

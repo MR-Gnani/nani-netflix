@@ -23,7 +23,7 @@ const SelectMovie = () => {
 
   return (
     <div>
-        <Container className='selectSection'>
+        <div className='selectSection'>
             <div className='TopSection'>
                 <h1>Please select the movie you are interested in!</h1>
                 <div className='buttonSection'>
@@ -43,7 +43,7 @@ const SelectMovie = () => {
             />
             ))}
             </div>
-        </Container>
+        </div>
     </div>
   )
 }

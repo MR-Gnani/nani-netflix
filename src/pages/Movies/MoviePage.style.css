@@ -1,0 +1,29 @@
+.SearchPage {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultSection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .resultSection{
+     grid-template-columns: repeat(2, 1fr);
+    }
+   }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+   .resultSection{
+    grid-template-columns: repeat(3, 1fr);
+   }
+  }
+
+  @media only screen and (max-width: 1268px) and (min-width: 1024px) {
+    .resultSection{
+     grid-template-columns: repeat(4, 1fr);
+    }
+  }

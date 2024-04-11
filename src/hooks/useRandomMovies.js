@@ -5,7 +5,7 @@ const fetchAllMovies = (pageNum)=>{
     return api.get(`/movie/popular?page=${pageNum}`);
 };
 
-// 인기영화 페이지별로 가져오기
+// 인기영화 페이지별로 가져오기(랜덤 아님)
 export const useAllMovieQuery = (pageNum)=>{
     return useQuery({
         queryKey:['movie-popByPage', pageNum],
