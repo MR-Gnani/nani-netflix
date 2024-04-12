@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Outlet, useNavigate} from 'react-router-dom';
+import {Link, Outlet, useNavigate} from 'react-router-dom';
 
 const AppLayout = () => {
   const [keyword, setKeyword] = useState();
@@ -19,7 +19,7 @@ const AppLayout = () => {
     <div className=''>
       <Navbar expand="lg" className="px-5 bg-custom fixed-top" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand><img src="https://i.namu.wiki/i/-I8NUqTE7uADT0au1fxan7mljOIopICG16Ifsjh4zPFW1FGXEilmcwwo-VI8Ho10N7Z7Q5qWmaFmNllOpQqWgg.svg" width={93} alt=''/>
+        <Navbar.Brand as={Link} to="/"><img src="https://i.namu.wiki/i/-I8NUqTE7uADT0au1fxan7mljOIopICG16Ifsjh4zPFW1FGXEilmcwwo-VI8Ho10N7Z7Q5qWmaFmNllOpQqWgg.svg" width={93} alt=''/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -30,9 +30,7 @@ const AppLayout = () => {
           >
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/movies">Movies</Nav.Link>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            
           </Nav>
           <Form className="d-flex" onSubmit={searchByKeyword}>
             <Form.Control
