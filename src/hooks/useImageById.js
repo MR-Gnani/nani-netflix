@@ -7,7 +7,7 @@ const fetchDetailMovies = (movieId)=>{
 };
 
 export const useMovieByIdQuery = (movieId)=>{
-    console.log("movieId", movieId); // id별로 잘나옴.
+    // console.log("movieId", movieId); // id별로 잘나옴.
     return useQuery({
         queryKey:[`movie-${movieId}`],
         queryFn:()=>fetchDetailMovies(movieId),
