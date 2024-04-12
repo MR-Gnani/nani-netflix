@@ -31,7 +31,7 @@ const SelectMovie = () => {
                     {/* 5이하일 경우 disable걸기 , 선택된 영화 갯수가 5이상되면 클릭 가능하게, 메인페이지로 이동(제출) */}
                     {/* SelecMovieCard를 선택할 경우 로컬 디비에 장르를 pk로 설정하고 count 적용 
                     내가 좋아할 만한 영화 리스트에 count가 가장 많은 순으로 4, 3, 2, 1 11개 보여주기 */}
-                    <Button className='m-2' onClick={handleButtonClick}> Select at least 5</Button>
+                    <Button className='m-2' onClick={handleButtonClick}> MainPage</Button>
                     <Button onClick={()=>setPageNum(pageNum+1)}> Next </Button>
                 </div>  
             </div>

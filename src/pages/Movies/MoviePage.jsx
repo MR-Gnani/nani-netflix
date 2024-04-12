@@ -98,6 +98,9 @@ const MoviePage = () => {
   // 페이지 핸들 함수
   const handlePageClick = ({selected})=>{
     setPage(selected+1);
+    setSortValue('');
+    setGenreId([]);
+    setYear([0, CURRENT_YEAR]);
   };
 
   // 정렬 상태값 설정 함수
