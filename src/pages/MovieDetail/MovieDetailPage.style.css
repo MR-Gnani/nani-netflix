@@ -59,3 +59,22 @@
     margin-top: 10px;
     margin-bottom: 10px;  
 }
+.modal-90w {
+    max-width: 90vw;
+  }
+  .modal-style {
+    background-color: var(--color-black);
+    height: 90vh;
+  }
+  .modal-style > * {
+    border: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .detailInfo {
+        flex-direction: column;
+    }
+    .imageSection {
+        justify-content: center;
+    }
+   }
