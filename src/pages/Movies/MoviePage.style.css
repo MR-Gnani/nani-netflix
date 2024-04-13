@@ -47,29 +47,39 @@
 
 @media only screen and (max-width: 768px) {
     .filterSection {
-        width: 100%;
+        width: 92%;
     }
     .resultSection{
-        width: 100%;
-     grid-template-columns: repeat(3, 1fr);
+        margin-left: 30px;
+        width: 92%;
+     grid-template-columns: repeat(2, 1fr);
     }
     .mainSection {
         display: flex;
         flex-direction: column;
     }
+    .genreDiv-g {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
    }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     .filterSection {
-        width: 100%;
+        width: 92%;
     }
    .resultSection{
-    width: 100%;
+    margin-left: 30px   ;
+    width: 92%;
     grid-template-columns: repeat(3, 1fr);
    }
    .mainSection {
     display: flex;
     flex-direction: column;
+   }
+   .genreDiv-g {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
   }
 

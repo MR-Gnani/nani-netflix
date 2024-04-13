@@ -133,6 +133,7 @@ const MoviePage = () => {
           </div>
           <div className='genreDiv'>
             <h3>장르</h3>
+            <div className='genreDiv-g'>
             {genreData.map((item, index) => (
               <div  className='' key={index}>
                 <input type="checkbox" id={`genre-${index}`} name={`genre-${index}`}
@@ -141,6 +142,7 @@ const MoviePage = () => {
                 <label htmlFor={`genre-${index}`}>{item.name}</label>
               </div>
             ))}
+            </div>
             <div className='none'> . </div>
           </div>
           <RangeSlider 

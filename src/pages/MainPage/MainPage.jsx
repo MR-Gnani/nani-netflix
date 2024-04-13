@@ -20,7 +20,6 @@ const MainPage = () => {
     <div className='mainPage'>
       <Container>
         <Banner/>
-        
         <UpComingMovieSlides/>
         <TopRatedMovieSlides/>
         <PopularMovieSlides/>
