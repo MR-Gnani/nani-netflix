@@ -9,6 +9,20 @@ const MovieCards = ({movie}) => {
   const navigate = useNavigate();
   const showDetail = ()=>{
     navigate(`/movies/${movie?.id}`);
+    // 로컬 스토리지에서 이전에 저장된 favoriteGenre 객체 가져오기
+    const storedGenreIdsString = localStorage.getItem('favoriteGenre');
+    let storedGenreIds = {};
+
+    if (storedGenreIdsString) {
+      storedGenreIds = JSON.parse(storedGenreIdsString);
+    }
+    // 새로운 영화의 장르 ID를 기존 객체에 추가
+    movie.genre_ids.forEach((genreId) => {
+      storedGenreIds[genreId] = (storedGenreIds[genreId] || 0) + 1;
+    });
+    // 수정된 배열을 다시 문자열로 변환하여 로컬 스토리지에 저장
+    const updatedGenreIdsString = JSON.stringify(storedGenreIds);
+    localStorage.setItem('favoriteGenre', updatedGenreIdsString);
   }
 
   const { data:genreData } = useMovieGenreQuery();

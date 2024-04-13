@@ -8,7 +8,6 @@ import { responsive } from '../../../../constant/responsive';
 
 const TopRatedMovieSlides = () => {
    const {data, isLoading, isError, error } = useTopRatedMovieQuery();
-   console.log("topla", data);
    if(isLoading) {
     return <h1>Loading</h1>
    }

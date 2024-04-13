@@ -22,17 +22,12 @@ const MoviePage = () => {
   const [year, setYear] = useState([0, CURRENT_YEAR]);
   const[page, setPage] = useState(1);
   const [genreId, setGenreId] = useState([]);
-  // const genres = [
-  //   "Action", "Romance", "Comedy", "War", "Science Fiction",
-  //   "Fantasy", "Crime", "Thriller", "Animation", "Horror"
-  // ];
   
   // url query + API
   const [query, setQuery] = useSearchParams();
   const keyword = query.get("q")
   const {data: movieList, isLoading, isError, error} = useSearchMovieQuery({keyword, page})
   const {data: genreData} = useMovieGenreQuery();
-  console.log(data);
 
   // function
   // 왼쪽 slider 함수

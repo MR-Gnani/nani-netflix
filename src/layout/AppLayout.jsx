@@ -19,7 +19,7 @@ const AppLayout = () => {
     <div className=''>
       <Navbar expand="lg" className="px-5 bg-custom fixed-top" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand as={Link} to="/"><img src="https://i.namu.wiki/i/-I8NUqTE7uADT0au1fxan7mljOIopICG16Ifsjh4zPFW1FGXEilmcwwo-VI8Ho10N7Z7Q5qWmaFmNllOpQqWgg.svg" width={93} alt=''/>
+        <Navbar.Brand as={Link} to="/main"><img src="https://i.namu.wiki/i/-I8NUqTE7uADT0au1fxan7mljOIopICG16Ifsjh4zPFW1FGXEilmcwwo-VI8Ho10N7Z7Q5qWmaFmNllOpQqWgg.svg" width={93} alt=''/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -28,7 +28,7 @@ const AppLayout = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/main">Home</Nav.Link>
             <Nav.Link href="/movies">Movies</Nav.Link>
             
           </Nav>
