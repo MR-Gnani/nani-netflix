@@ -1,3 +1,35 @@
+![main]()
+
+# Demo
+[https://naniflix.netlify.app/](https://naniflix.netlify.app/)
+
+# 개발 목표 & 개발기간
+- 2024/03/27 - 2024/04/03
+
+- API를 사용하여 영화정보 제공 사이트 만들기
+- 필터링으로 다양한 검색 옵션 제공하기
+- 유튜브 트레일러 영상 제공하기
+- "내가 좋아할 만한 영화" 추천 알고리즘 만들어보기
+
+# 사용 기술
+- IDE : Visual Studio Code
+- lang : HTML/CSS, Media Query, JavaScript
+- FrameWork : React
+- 라이브러리 : Redux Toolkit, BootStrap, React-youtube
+
+# Advanced Feature
+- 유튜브 트레일러
+
+![youtube]()
+
+- 검색 필터링 기능
+
+![search]()
+
+# 개선 사항
+- 구상만 해둔 추천 알고리즘을 구현하고 싶다.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
