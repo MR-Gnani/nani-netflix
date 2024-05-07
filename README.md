@@ -1,4 +1,4 @@
-![main]()
+![main](https://github.com/MR-Gnani/nani-netflix/blob/master/mainMovie.png)
 
 # Demo
 [https://naniflix.netlify.app/](https://naniflix.netlify.app/)
@@ -20,14 +20,14 @@
 # Advanced Feature
 - 유튜브 트레일러
 
-![youtube]()
+![youtube](https://github.com/MR-Gnani/nani-netflix/blob/master/youtubeMovie.png)
 
 - 검색 필터링 기능
 
-![search]()
+![search](https://github.com/MR-Gnani/nani-netflix/blob/master/searchMovie.png)
 
 # 개선 사항
-- 구상만 해둔 추천 알고리즘을 구현하고 싶다.
+- 구상만 해둔 추천 알고리즘을 구현하기.
 
 
 # Getting Started with Create React App
