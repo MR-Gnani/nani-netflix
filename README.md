@@ -15,7 +15,7 @@
 - IDE : Visual Studio Code
 - lang : HTML/CSS, Media Query, JavaScript
 - FrameWork : React
-- 라이브러리 : Redux Toolkit, BootStrap, React-youtube
+- 라이브러리 : React-Query, BootStrap, React-youtube
 
 # Advanced Feature
 - 유튜브 트레일러
